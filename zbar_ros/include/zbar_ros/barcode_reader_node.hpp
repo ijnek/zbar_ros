@@ -34,7 +34,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "./zbar.h"
 #include "sensor_msgs/msg/image.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "zbar_ros_interfaces/msg/symbol.hpp"
 
 class BarcodeReaderNode : public rclcpp::Node
 {
@@ -45,7 +45,7 @@ private:
   void imageCb(sensor_msgs::msg::Image::ConstSharedPtr msg);
 
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr camera_sub_;
-  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr barcode_pub_;
+  rclcpp::Publisher<zbar_ros_interfaces::msg::Symbol>::SharedPtr barcode_pub_;
   zbar::ImageScanner scanner_;
 };
 
