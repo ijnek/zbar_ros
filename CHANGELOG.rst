@@ -2,8 +2,8 @@
 Changelog for package zbar_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.0 (2024-04-17)
+------------------
 * Bump ros-tooling/setup-ros from 0.6 to 0.7 (`#26 <https://github.com/ros-drivers/zbar_ros/issues/26>`_)
 * updating CI for iron (`#25 <https://github.com/ros-drivers/zbar_ros/issues/25>`_)
 * Add iron ci and badges for CI (`#23 <https://github.com/ros-drivers/zbar_ros/issues/23>`_)
