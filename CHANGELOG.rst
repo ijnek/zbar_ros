@@ -2,6 +2,21 @@
 Changelog for package zbar_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Bump ros-tooling/setup-ros from 0.6 to 0.7 (`#26 <https://github.com/ros-drivers/zbar_ros/issues/26>`_)
+* updating CI for iron (`#25 <https://github.com/ros-drivers/zbar_ros/issues/25>`_)
+* Add iron ci and badges for CI (`#23 <https://github.com/ros-drivers/zbar_ros/issues/23>`_)
+* fix deprecated cv_bridge header file (`#19 <https://github.com/ros-drivers/zbar_ros/issues/19>`_)
+* adapt to split branches in CI (`#22 <https://github.com/ros-drivers/zbar_ros/issues/22>`_)
+* Remove galactic CI as it has reached EOL (`#20 <https://github.com/ros-drivers/zbar_ros/issues/20>`_)
+* add gif to readme, and minor improvements (`#17 <https://github.com/ros-drivers/zbar_ros/issues/17>`_)
+* Update tooling-ci.yaml (`#15 <https://github.com/ros-drivers/zbar_ros/issues/15>`_)
+* Add Paul as an author in package.xml (`#13 <https://github.com/ros-drivers/zbar_ros/issues/13>`_)
+* Revert "Update package.xml"
+* Update package.xml
+* Contributors: Kenji Brameld, dependabot[bot]
+
 0.4.0 (2022-02-12)
 ------------------
 * Port to ROS2
